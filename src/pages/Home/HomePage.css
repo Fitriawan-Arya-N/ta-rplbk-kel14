@@ -1,0 +1,41 @@
+/* src/pages/home/HomePage.css */
+.container {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px; /* Add left margin */
+    margin-right: 100px; /* Add right margin */
+  }
+  
+  .display-5 {
+    font-weight: bold;
+  }
+  
+  .text-success {
+    color: green;
+  }
+  
+  .lead {
+    margin-top: 20px;
+  }
+  
+  .btn-success {
+    background-color: green;
+    border-color: green;
+  }
+  
+  .btn-outline-success {
+    color: green;
+    border-color: green;
+  }
+  
+  .btn-success:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+  
+  .btn-outline-success:hover {
+    color: white;
+    background-color: green;
+    border-color: darkgreen;
+  }
+  

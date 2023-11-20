@@ -1,0 +1,41 @@
+/* src/pages/about/AboutPage.css */
+.about-container {
+    margin-top: 50px;
+    margin-left: 50px; /* Add left margin */
+    margin-right: 50px; /* Add right margin */
+  }
+  
+  .about-heading {
+    color: green;
+  }
+  
+  /* Rounded corners for each card on the About page */
+  .about-container .about-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth transform */
+  }
+  
+  /* Apply transform on hover and border-color on hover */
+  .about-container .about-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    border: 2px solid green; /* Set border color on hover */
+  }
+  
+  /* Center and adjust spacing for card row */
+  .about-container .row-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* Add negative margin to counteract padding from Bootstrap columns */
+    margin-top: 50px;
+    margin-left: 50px; /* Add left margin */
+    margin-right: 50px; /* Add right margin */
+  }
+  
+  /* Adjust margin between cards */
+  .about-container .card-col {
+    margin: 0 15px;
+    margin-bottom: 15px;
+    width: calc(25% - 30px); /* Adjust the width of the card, considering left and right margin */
+  }
+  

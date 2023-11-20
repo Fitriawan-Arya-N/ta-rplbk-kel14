@@ -1,0 +1,53 @@
+/* Navigation.css */
+
+.navigation-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff; /* Hover color is white */
+  font-weight: bold; /* Make the font bold on hover */
+}
+
+/* Specific styles for certain links */
+.nav-link.home {
+  color: #fff; /* Home link color is white */
+}
+
+.nav-link.books {
+  color: #fff; /* Books link color is white */
+}
+
+.nav-link.profile {
+  color: #fff; /* Profile link color is white */
+}
+
+.nav-link.logout {
+  color: #fff; /* Logout link color is white */
+}
+
+.nav-item {
+  margin-right: 50px; /* Adjust the right margin between items */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* Remove right margin for the last item */
+}
+
+/* Styles for Account link */
+.nav-link.account {
+  color: #fff;
+}
+
+.nav-link.account:hover {
+  color: #fff;
+}
